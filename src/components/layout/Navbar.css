@@ -1,0 +1,14 @@
+
+.nav-link{
+    color: #4F65EC;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+}
+.navbar{
+    background-color: #4F65EC;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    box-shadow: 5px 8px 4px gray;
+}
