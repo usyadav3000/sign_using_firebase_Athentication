@@ -31,7 +31,7 @@ class SignIn extends Component {
         <form
           className="container1"
           autoComplete="off"
-          style={{ marginTop: "30px",width: "500px" }}
+          style={{ marginTop: "30px" }}
           onSubmit={this.handleSubmit}
         >
           <legend>

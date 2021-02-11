@@ -10,11 +10,11 @@ const Tasks = ({ tasks }) => {
   return (
     <>
       <div
-        className="container"
-        style={{ marginTop: "30px" ,backgroundColor: "#EEEEEE" ,margin:"20px",padding:"40px"}}
+        className="container list-item"
+        
       >
 
-        <div style={{margin: "auto 60px"}}>
+        <div className="div11">
           {tasks && tasks.map((task) =><>
            <span className="order"> {i++} </span>
              <Task task={task} key={task.id} /> 

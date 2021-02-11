@@ -48,3 +48,32 @@
     display: block;
     background-color: #000;
 }
+.container{
+    margin: 30px 100px;
+    width: 100%;
+}
+@media (max-width: 600px) {
+    .container{
+      margin: 0px;
+    }
+}
+.list-item{
+    margin-top: 30px;
+    background-color:#EEEEEE;
+    padding: 40px;
+    margin: 20px;
+}
+.div11{
+    margin: auto 60px;
+}
+@media (max-width: 600px) {
+    .list-item{
+      margin: 0px;
+    }
+    .list{
+        width: 300px;
+    }
+    .div11{
+        margin: 0px;
+    }
+}

@@ -33,7 +33,7 @@ class AddTask extends Component {
           id="addTaskForm"
           className="container"
           autoComplete="off"
-          style={{ margin: "30px 100px",width:"100%"}}
+          
           onSubmit={this.handleSubmit}
         >
           <div className="form-group form1-group" style={{display: "inline-block"}}>

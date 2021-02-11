@@ -62,7 +62,6 @@ class SignUp extends Component {
     );
   }
 }
-
 const mapStateToProps = (state) => {
   console.log(state);
   const uid = state.firebase.auth.uid;
@@ -70,11 +69,9 @@ const mapStateToProps = (state) => {
     uid: uid,
   };
 };
-
 const mapDispatchToProps = (dispatch) => {
   return {
     signUp: (creds) => dispatch(signUp(creds)),
   };
 };
-
 export default connect(mapStateToProps, mapDispatchToProps)(SignUp);
